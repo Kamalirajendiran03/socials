@@ -17,3 +17,4 @@ Welcome to the Social Media App project! This project is a simple web applicatio
 - app.js: The JavaScript file for handling dynamic behavior.
 
 
+"D:\6th sem\socials\index.html - task1 - Visual Studio Code 2024-01-02 21-02-51.mp4"
