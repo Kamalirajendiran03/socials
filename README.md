@@ -12,8 +12,8 @@ Welcome to the Social Media App project! This project is a simple web applicatio
 - Stylish and responsive design for a pleasant user experience
 
 ## structure
--index.html: The main HTML file for the application.
--style.css: The main CSS file for styling.
--app.js: The JavaScript file for handling dynamic behavior.
+- index.html: The main HTML file for the application.
+- style.css: The main CSS file for styling.
+- app.js: The JavaScript file for handling dynamic behavior.
 
 
