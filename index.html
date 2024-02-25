@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Media App</title>
+</head>
+<body>
+    <div class="container">
+        <div id="loginContainer">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="homeContainer" style="display: none;">
+            <h2>Welcome, <span id="loggedInUser"></span>!</h2>
+            <div class="add-post">
+                <button id="addPostButton">+</button>
+            </div>
+            <div class="posts-container">
+                <!-- Posts will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

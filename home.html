@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=-width, initial-scale=1.0" />
+    <title>My Social App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Social App</h1>
+    </header>
+    <main>
+      <form action="/post" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required />
+        <input type="text" name="title" placeholder="Title" required />
+        <textarea name="description" placeholder="Description" required></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div class="post">
+        <h2>User 1</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Post image" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="post">
+        <h2>User 2</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Post image" />
+        <p>Curabitur ullamcorper turpis vel commodo scelerisque.</p>
+      </div>
+      <div class="post">
+        <h2>User 3</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Post image" />
+        <p>Sed auctor, nulla a pharetra dignissim, lacus lacus venenatis dolor.</p>
+      </div>
+    </main>
+    <footer>
+      &copy; 2023 My Social App
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
